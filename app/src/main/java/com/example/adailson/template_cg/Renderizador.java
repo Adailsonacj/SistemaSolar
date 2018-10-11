@@ -19,7 +19,7 @@ import javax.microedition.khronos.opengles.GL10;
 //utilizar a biblioteca OPENGL no desenho gráfico que
 // sera apresentado na tela pela superficie de desenho
 class Renderizador implements GLSurfaceView.Renderer, View.OnTouchListener {
-    
+
     private FloatBuffer buffer;
     private FloatBuffer coorTerra;
     private FloatBuffer coorLua;
